@@ -26,14 +26,6 @@ Golang
 
 Programmers were choosing ease over safety and efficiency by moving to dynamically typed languages (e.g., Python and JavaScript) rather than C++ or, to a lesser extent, Java
 
-* "Did the C++ committee really believe that was wrong with C++ was that it didn't have enough features?" –Rob Pike
-
-* "Clumsy type systems drive people to dynamically typed languages" -Robert Griesemer
-
-* "False dichotomy of static languages being 'slow and painful' and dynamic languages being 'fast and fun'" –Rob Pike
-
-* "Old programs read like quiet conversations between a well-spoken research worker and a well-studied mechanical colleague, not as a debate with a compiler. Who'd have guessed sophistication bought such noise?" -Dick Gabriel
-
 * Philosophy
 
 A new programming language which addressed common criticisms of other languages
