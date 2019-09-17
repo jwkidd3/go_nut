@@ -53,3 +53,4 @@ Provide a programmatic simulation of a burger joint
 - use a publisher/subscriber pattern for routine communication (e.g. Channels)
 - cooks can only cook 300 hamburgers before they go off shift and a new cook takes their place
 - the order queue can only be 5 orders
+- Write a generate script to build a list of cooks from the golang contrinutor list.
