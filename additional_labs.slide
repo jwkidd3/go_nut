@@ -26,13 +26,18 @@ Markdown Processor
 - output to file
 
 * Exercise 4 
+- Write an implementation of a system
+- Build a module of your set implentation and push to github
+- Create a small program to use your new module
+
+* Exercise 5
 With so many logger options, we need a new Logger
 - Write a new logging utility
 - Support WARN/INFO/TRACE/ERROR loggin levels
 - Provide ability to change loggin levels
 - Provide configurations to determine log to file/console or both
 
-* Exercise 5
+* Exercise 6
 Write a web crawler
 - parse all HREFs found
 - determine if each link is valid or not
@@ -40,8 +45,7 @@ Write a web crawler
 - make the solution utilize go routines
 - use a publisher/subscriber mechanism to have one thread read the data and the other creating the output
 
-
-* Exercise 6 
+* Exercise 7 
 Provide a programmatic simulation of a burger joint
 - workers are a waiters/cooks
 - waiters take orders/cooks cook orders
