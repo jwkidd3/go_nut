@@ -44,6 +44,7 @@ Write a web crawler
 - Write an implementation of a set
 - Build a module of your set implentation and push to github
 - Create a small program to use your new module
+-  your set should support union, intersection, difference, no duplicates
 
 * Exercise 7 
 Provide a programmatic simulation of a burger joint
