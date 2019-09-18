@@ -1,4 +1,4 @@
-Go_Next
+GoLang Exercises
 
 * Exercise One
 Fizzbuzz
@@ -11,13 +11,22 @@ Write a code which accepts an integer and returns
 Test your function with a range of number from 1-25
 
 * Exercise Two
+Relay Race
+- write a program to simulate a relay race with 4 runners
+- create a func called `runner` with an int channel as a parameter
+- the function should receive the "baton" via that channel (in reality it will receive a runner number, from 1-4)
+- once the baton is received, it will print a message saying "Runner x is running" and then it will fire off the next goroutine representing the next runner in line
+- when runner 4 receives the baton, it is the last runner, so it should not fire off another goroutine
+
+
+* Exercise Three
 Process Monitor
 - write code to poll the processes running on your system
 - poll should take place every 10 seconds
 - results should be displayed to console
 - consider packages: time, context, os/exec, log, strings, glog
 
-* Exercise Three
+* Exercise Four
 Markdown Processor
 - Write a markdown parser 
 - Define interface types to map to each markdown element (not necessary to map all elements)
@@ -25,14 +34,14 @@ Markdown Processor
 - Code a render/writeto capability to output to html
 - output to file
 
-* Exercise 4
+* Exercise Five
 With so many logger options, we need a new Logger
 - Write a new logging utility
 - Support WARN/INFO/TRACE/ERROR loggin levels
 - Provide ability to change loggin levels
 - Provide configurations to determine log to file/console or both
 
-* Exercise 5
+* Exercise Six
 Write a web crawler
 - parse all HREFs found
 - determine if each link is valid or not
@@ -40,17 +49,18 @@ Write a web crawler
 - make the solution utilize go routines
 - use a publisher/subscriber mechanism to have one thread read the data and the other creating the output
 
-* Exercise 6 
+* Exercise Seven 
 - Write an implementation of a set
 - Build a module of your set implentation and push to github
 - Create a small program to use your new module
 -  your set should support union, intersection, difference, no duplicates
 - additionally, make a module of your custom logger and use it in this solution
 
-* Exercise 7 
-Provide a programmatic simulation of a burger joint
+* Exercise Eight 
+Provide a programmatic simulation of a restauraunt
 - workers are a waiters/cooks
 - waiters take orders/cooks cook orders
+- the restauraunt can have u to 5 waiters and 3 cooks at any time
 - use a publisher/subscriber pattern for routine communication (e.g. Channels)
 - cooks can only cook 300 hamburgers before they go off shift and a new cook takes their place
 - the order queue can only be 5 orders
